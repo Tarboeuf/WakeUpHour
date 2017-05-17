@@ -1,9 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace WakeUpHourLib
 {
     public interface ICalendar
     {
-        DateTime GetWakeUpHourOfDay(DateTime day);
+        IEnumerable<DayEvents> GetWakeUpHourOfDay(DateTime day);
     }
 }

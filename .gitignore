@@ -286,3 +286,5 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+/.credentials/calendar-dotnet-quickstart.json/Google.Apis.Auth.OAuth2.Responses.TokenResponse-user
+/client_secret.json
