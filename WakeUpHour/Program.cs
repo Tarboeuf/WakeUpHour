@@ -1,4 +1,5 @@
 ﻿using System;
+using WakeUpHourLib;
 
 namespace WakeUpHour
 {
@@ -7,6 +8,8 @@ namespace WakeUpHour
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            GoogleCalendar cal = new GoogleCalendar(null);
+            cal.Connection("");
         }
     }
 }
