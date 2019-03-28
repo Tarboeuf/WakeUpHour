@@ -7,7 +7,7 @@ namespace WakeUpHour
     {
         static void Main(string[] args)
         {
-            GoogleCalendar cal = new GoogleCalendar();
+            GoogleCalendar cal = new GoogleCalendar("pierre.epinat@gmail.com", "mathilde.pigot@gmail.com");
             CalendarBLL bll = new CalendarBLL
             {
                 Calendar = cal
